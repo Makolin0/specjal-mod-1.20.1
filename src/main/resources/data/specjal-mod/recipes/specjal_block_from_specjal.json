@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "specjal-mod:specjal"
+    }
+  },
+  "result": {
+    "item": "specjal-mod:specjal_block"
+  }
+}

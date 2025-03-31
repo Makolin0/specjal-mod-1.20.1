@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "specjal-mod:specjal_block"
+    }
+  ],
+  "result": {
+    "item": "specjal-mod:specjal",
+    "count": 9
+  }
+}

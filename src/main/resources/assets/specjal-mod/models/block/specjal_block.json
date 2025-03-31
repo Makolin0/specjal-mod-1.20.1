@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "specjal-mod:block/specjal_block"
+  }
+}

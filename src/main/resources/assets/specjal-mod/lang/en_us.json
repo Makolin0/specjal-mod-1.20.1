@@ -1,5 +1,7 @@
 {
   "itemgroup.specjal": "Specjal",
 
-  "item.specjal-mod.specjal": "Specjal"
+  "item.specjal-mod.specjal": "Specjal",
+
+  "block.specjal-mod.specjal_block": "Specjal Block"
 }

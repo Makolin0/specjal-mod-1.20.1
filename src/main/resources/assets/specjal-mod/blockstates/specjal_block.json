@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "specjal-mod:block/specjal_block"
+    }
+  }
+}
