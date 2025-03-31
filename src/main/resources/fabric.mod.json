@@ -3,9 +3,9 @@
 	"id": "specjal-mod",
 	"version": "${version}",
 	"name": "Specjal Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Joins two best things in the world, Specjal beer and Minecraft!",
 	"authors": [
-		"Me!"
+		"makolin0"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"specjal.SpecjalModDataGenerator"
+		],
+		"client": [
+			"specjal.MakoModClient"
 		]
 	},
 	"mixins": [
