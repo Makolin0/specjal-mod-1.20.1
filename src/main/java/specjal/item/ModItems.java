@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 
 public class ModItems {
-    public static final Item SPECJAL = registerItem("specjal", new Item(new FabricItemSettings()));
+    public static final Item SPECJAL = registerItem("specjal", new Item(new FabricItemSettings().food(ModFoodComponents.SPECJAL)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPECJAL);
