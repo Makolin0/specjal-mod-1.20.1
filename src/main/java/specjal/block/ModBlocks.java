@@ -16,21 +16,27 @@ import specjal.SpecjalMod;
 import net.minecraft.registry.Registry;
 
 public class ModBlocks {
+
+    // dodajemy bloki i ustawiamy ich parametry
+    // Zamiast podawac każdy parametr, można skopiować od istniejącego bloku
+    // FabricBlockSettings.copyOf(Blocks.BLOCK_NAME)
+
     public static final Block SPECJAL_BLOCK = registerBlock(
             "specjal_block",
             new Block(FabricBlockSettings.create()
                     .mapColor(MapColor.PALE_YELLOW)
                     .instrument(Instrument.XYLOPHONE)
-//                    .requiresTool()
                     .strength(1.0F)
                     .sounds(BlockSoundGroup.BONE))
     );
 
+    // funkcja do łatwej rejestracji bloku
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(SpecjalMod.MOD_ID, name), block);
     }
 
+    // blok musi mieć również swoje odzwierciedlenie jako przedmiot w ekwipunku
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(SpecjalMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));

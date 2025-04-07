@@ -5,5 +5,6 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
+    // Tą wartość dodajemy przy tworzeniu przedmiotu
     public static final FoodComponent SPECJAL = new FoodComponent.Builder().hunger(2).saturationModifier(0.6f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200), 0.25f).build();
 }

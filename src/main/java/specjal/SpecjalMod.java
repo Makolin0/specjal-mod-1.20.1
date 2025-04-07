@@ -14,7 +14,10 @@ public class SpecjalMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		// Funkcja wykonywana przy wczytywaniu gry. Ładujemy w niej całą modyfikację
+
+		LOGGER.info("Initializing " + MOD_ID);
+
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();

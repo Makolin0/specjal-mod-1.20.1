@@ -11,6 +11,8 @@ import specjal.SpecjalMod;
 import specjal.block.ModBlocks;
 
 public class ModItemGroups {
+    // dodajemy grupy w zakładkach w trybie kreatywnym
+
     public static final ItemGroup SPECJAL_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(SpecjalMod.MOD_ID, "specjal"),
             FabricItemGroup.builder()

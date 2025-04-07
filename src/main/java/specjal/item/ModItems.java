@@ -11,9 +11,10 @@ import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 
 public class ModItems {
+    // Dodajemy przedmioty
     public static final Item SPECJAL = registerItem("specjal", new Item(new FabricItemSettings().food(ModFoodComponents.SPECJAL)));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPECJAL);
     }
 
@@ -24,6 +25,6 @@ public class ModItems {
     public static void registerModItems() {
         SpecjalMod.LOGGER.info("Registering Mod Items for " + SpecjalMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToItemGroup);
     }
 }
