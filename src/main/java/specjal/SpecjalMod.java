@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import specjal.block.ModBlocks;
 import specjal.item.ModItemGroups;
 import specjal.item.ModItems;
+import specjal.sound.ModSounds;
 
 public class SpecjalMod implements ModInitializer {
 	public static final String MOD_ID = "specjal-mod";
@@ -21,5 +22,6 @@ public class SpecjalMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();
+		ModSounds.registerSounds();
 	}
 }

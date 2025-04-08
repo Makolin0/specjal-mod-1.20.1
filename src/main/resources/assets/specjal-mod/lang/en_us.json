@@ -11,5 +11,7 @@
   "item.specjal-mod.specjal_pickaxe": "Specjal Pickaxe",
   "item.specjal-mod.specjal_axe": "Specjal Axe",
   "item.specjal-mod.specjal_shovel": "Specjal Shovel",
-  "item.specjal-mod.specjal_hoe": "Specjal Hoe"
+  "item.specjal-mod.specjal_hoe": "Specjal Hoe",
+
+  "sounds.specjal-mod.burp": "Beautiful Burp"
 }
