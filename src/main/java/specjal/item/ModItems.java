@@ -9,10 +9,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 import specjal.block.ModBlocks;
+import specjal.item.custom.SpecjalItem;
 
 public class ModItems {
     // Dodajemy przedmioty
-    public static final Item SPECJAL = registerItem("specjal", new Item(
+    public static final Item SPECJAL = registerItem("specjal", new SpecjalItem(
             new FabricItemSettings().food(ModFoodComponents.SPECJAL)));
 
     public static final Item HOP_SEEDS = registerItem("hop_seeds",
