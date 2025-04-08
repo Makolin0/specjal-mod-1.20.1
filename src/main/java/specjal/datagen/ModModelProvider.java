@@ -6,6 +6,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import specjal.block.ModBlocks;
+import specjal.block.custom.HopCropBlock;
 import specjal.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -20,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
         // jak wyglądają w ekwipunku i wyrzucone, nie jak postawione
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPECJAL_BLOCK);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.HOP_CROP, HopCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
@@ -29,5 +32,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         // Models.GENERATED znaczy że wygląda jak gruby model 2D. Czyli jak 90% przedmiotów.
         itemModelGenerator.register(ModItems.SPECJAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPECJAL_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HOPS, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.HOP_SEEDS, Models.GENERATED);
     }
 }

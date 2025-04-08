@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPECJAL_BLOCK);
 
                         entries.add(ModItems.HOP_SEEDS);
+                        entries.add(ModItems.HOPS);
 
                         entries.add(ModItems.SPECJAL_SWORD);
                         entries.add(ModItems.SPECJAL_PICKAXE);

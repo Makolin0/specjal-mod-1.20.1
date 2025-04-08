@@ -16,7 +16,9 @@ public class ModItems {
             new FabricItemSettings().food(ModFoodComponents.SPECJAL)));
 
     public static final Item HOP_SEEDS = registerItem("hop_seeds",
-            new AliasedBlockItem(ModBlocks.HOP_BLOCK, new FabricItemSettings()));
+            new AliasedBlockItem(ModBlocks.HOP_CROP, new FabricItemSettings()));
+    public static final Item HOPS = registerItem("hops",
+            new Item(new FabricItemSettings()));
 
     public static final Item SPECJAL_SWORD = registerItem("specjal_sword",
             new SwordItem(ModToolMaterial.SPECJAL, 6, 2f, new FabricItemSettings()));

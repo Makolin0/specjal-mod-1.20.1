@@ -33,7 +33,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.BONE))
     );
 
-    public static final Block HOP_BLOCK = Registry.register(Registries.BLOCK, new Identifier(SpecjalMod.MOD_ID, "hop_crop"),
+    public static final Block HOP_CROP = Registry.register(Registries.BLOCK, new Identifier(SpecjalMod.MOD_ID, "hop_crop"),
             new HopCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     // funkcja do łatwej rejestracji bloku
