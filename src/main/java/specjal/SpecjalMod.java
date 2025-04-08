@@ -8,6 +8,7 @@ import specjal.block.ModBlocks;
 import specjal.item.ModItemGroups;
 import specjal.item.ModItems;
 import specjal.sound.ModSounds;
+import specjal.util.ModLootTableModifiers;
 
 public class SpecjalMod implements ModInitializer {
 	public static final String MOD_ID = "specjal-mod";
@@ -23,5 +24,6 @@ public class SpecjalMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();
 		ModSounds.registerSounds();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

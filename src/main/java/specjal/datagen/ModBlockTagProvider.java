@@ -26,6 +26,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SPECJAL_BLOCK);
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ETERNIT_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ETERNIT_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ETERNIT_WALL);
+
+
         // przykład jak stworzyć tag który wymaga netherite narzędzi
 //        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
 //        .add(ModBlocks.SPECJAL_BLOCK);

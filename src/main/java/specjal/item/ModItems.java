@@ -32,6 +32,11 @@ public class ModItems {
     public static final Item SPECJAL_HOE = registerItem("specjal_hoe",
             new HoeItem(ModToolMaterial.SPECJAL, 6, 2f, new FabricItemSettings()));
 
+    public static final Item ASBESTOS = registerItem("asbestos",
+            new Item(new FabricItemSettings()));
+    public static final Item ETERNIT = registerItem("eternit",
+            new Item(new FabricItemSettings()));
+
     private static void addItemsToItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPECJAL);
     }

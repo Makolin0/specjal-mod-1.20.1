@@ -43,6 +43,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_hop_seeds", conditionsFromItem(ModItems.HOP_SEEDS))
                 .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "specjal_from_hops"));
 
+        createStairsRecipe(ModBlocks.ETERNIT_STAIRS, Ingredient.ofItems(ModItems.ETERNIT))
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_stairs_from_eternit"));
+        offerSlabRecipe(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ETERNIT_SLAB, ModItems.ETERNIT);
+        offerSingleOutputShapelessRecipe(consumer, ModBlocks.ETERNIT_BUTTON, ModItems.ETERNIT, "eternit_button_from_eternit");
+        offerPressurePlateRecipe(consumer, ModBlocks.ETERNIT_PRESSURE_PLATE, ModItems.ETERNIT);
+        createFenceRecipe(ModBlocks.ETERNIT_FENCE, Ingredient.ofItems(ModItems.ETERNIT))
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_fence_from_eternit"));
+        createFenceGateRecipe(ModBlocks.ETERNIT_FENCE_GATE, Ingredient.ofItems(ModItems.ETERNIT))
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_fence_gate_from_eternit"));
+        offerWallRecipe(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ETERNIT_WALL, ModItems.ETERNIT);
+        createDoorRecipe(ModBlocks.ETERNIT_DOOR, Ingredient.ofItems(ModItems.ETERNIT))
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_door_from_eternit"));
+        createTrapdoorRecipe(ModBlocks.ETERNIT_TRAPDOOR, Ingredient.ofItems(ModItems.ETERNIT))
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_trapdoor_from_eternit"));
+
+
         // tą klasą tworzymy unikalne receptury
 //        ShapedRecipeJsonBuilder.create(...)...
 

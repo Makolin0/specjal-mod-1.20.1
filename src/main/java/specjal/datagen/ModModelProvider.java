@@ -23,6 +23,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPECJAL_BLOCK);
 
         blockStateModelGenerator.registerCrop(ModBlocks.HOP_CROP, HopCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASBESTOS_ORE);
+
+        BlockStateModelGenerator.BlockTexturePool eternitPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ETERNIT_BLOCK);
+        eternitPool.stairs(ModBlocks.ETERNIT_STAIRS);
+        eternitPool.slab(ModBlocks.ETERNIT_SLAB);
+        eternitPool.button(ModBlocks.ETERNIT_BUTTON);
+        eternitPool.pressurePlate(ModBlocks.ETERNIT_PRESSURE_PLATE);
+        eternitPool.fence(ModBlocks.ETERNIT_FENCE);
+        eternitPool.fenceGate(ModBlocks.ETERNIT_FENCE_GATE);
+        eternitPool.wall(ModBlocks.ETERNIT_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.ETERNIT_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ETERNIT_TRAPDOOR);
     }
 
     @Override
@@ -35,6 +48,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPECJAL_SWORD, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.HOPS, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.HOP_SEEDS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ASBESTOS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ETERNIT, Models.GENERATED);
     }
 }

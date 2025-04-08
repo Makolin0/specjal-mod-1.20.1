@@ -32,6 +32,20 @@ public class ModItemGroups {
                         entries.add(ModItems.SPECJAL_SHOVEL);
                         entries.add(ModItems.SPECJAL_HOE);
 
+                        entries.add(ModItems.ASBESTOS);
+                        entries.add(ModBlocks.ASBESTOS_ORE);
+                        entries.add(ModItems.ETERNIT);
+
+                        entries.add(ModBlocks.ETERNIT_BLOCK);
+                        entries.add(ModBlocks.ETERNIT_STAIRS);
+                        entries.add(ModBlocks.ETERNIT_SLAB);
+                        entries.add(ModBlocks.ETERNIT_BUTTON);
+                        entries.add(ModBlocks.ETERNIT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ETERNIT_FENCE);
+                        entries.add(ModBlocks.ETERNIT_FENCE_GATE);
+                        entries.add(ModBlocks.ETERNIT_WALL);
+                        entries.add(ModBlocks.ETERNIT_DOOR);
+                        entries.add(ModBlocks.ETERNIT_TRAPDOOR);
                     })
                     .build());
 

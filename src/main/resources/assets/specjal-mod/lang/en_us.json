@@ -2,6 +2,7 @@
   "itemgroup.specjal": "Specjal",
 
   "item.specjal-mod.specjal": "Specjal",
+  "tooltip.specjal-mod.specjal": "Best Beer in the Overworld",
   "block.specjal-mod.specjal_block": "Specjal Block",
 
   "item.specjal-mod.hop_seeds": "Hop Seeds",
@@ -12,6 +13,21 @@
   "item.specjal-mod.specjal_axe": "Specjal Axe",
   "item.specjal-mod.specjal_shovel": "Specjal Shovel",
   "item.specjal-mod.specjal_hoe": "Specjal Hoe",
+
+  "item.specjal-mod.asbestos": "Asbestos",
+  "block.specjal-mod.asbestos_ore": "Asbestos Ore",
+  "item.specjal-mod.eternit": "Eternit",
+
+  "block.specjal-mod.eternit_block": "Eternit Block",
+  "block.specjal-mod.eternit_stairs": "Eternit Stairs",
+  "block.specjal-mod.eternit_slab": "Eternit Slab",
+  "block.specjal-mod.eternit_button": "Eternit Button",
+  "block.specjal-mod.eternit_pressure_plate": "Eternit Pressure Plate",
+  "block.specjal-mod.eternit_fence": "Eternit Fence",
+  "block.specjal-mod.eternit_fence_gate": "Eternit Fence Gate",
+  "block.specjal-mod.eternit_wall": "Eternit Wall",
+  "block.specjal-mod.eternit_door": "Eternit Door",
+  "block.specjal-mod.eternit_trapdoor": "Eternit Trapdoor",
 
   "sounds.specjal-mod.burp": "Beautiful Burp"
 }
