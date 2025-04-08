@@ -2,6 +2,13 @@
   "itemgroup.specjal": "Specjal",
 
   "item.specjal-mod.specjal": "Specjal",
+  "block.specjal-mod.specjal_block": "Specjal Block",
 
-  "block.specjal-mod.specjal_block": "Specjal Block"
+  "item.specjal-mod.hop_seeds": "Hop Seeds",
+
+  "item.specjal-mod.specjal_sword": "Specjal Sword",
+  "item.specjal-mod.specjal_pickaxe": "Specjal Pickaxe",
+  "item.specjal-mod.specjal_axe": "Specjal Axe",
+  "item.specjal-mod.specjal_shovel": "Specjal Shovel",
+  "item.specjal-mod.specjal_hoe": "Specjal Hoe"
 }

@@ -14,12 +14,15 @@ import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 
 import net.minecraft.registry.Registry;
+import specjal.block.custom.HopCropBlock;
 
 public class ModBlocks {
 
     // dodajemy bloki i ustawiamy ich parametry
     // Zamiast podawac każdy parametr, można skopiować od istniejącego bloku
     // FabricBlockSettings.copyOf(Blocks.BLOCK_NAME)
+    // zamiast Block, można użyć również typu ExperienceDroppingBlock(FabricBlockSetings..., UniformIntProvider.create(MIN_EXP, MAX_EXP))
+    // chyba oczywiste co robi
 
     public static final Block SPECJAL_BLOCK = registerBlock(
             "specjal_block",
@@ -29,6 +32,9 @@ public class ModBlocks {
                     .strength(1.0F)
                     .sounds(BlockSoundGroup.BONE))
     );
+
+    public static final Block HOP_BLOCK = Registry.register(Registries.BLOCK, new Identifier(SpecjalMod.MOD_ID, "hop_crop"),
+            new HopCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     // funkcja do łatwej rejestracji bloku
     private static Block registerBlock(String name, Block block) {

@@ -23,6 +23,14 @@ public class ModItemGroups {
                         entries.add(ModItems.SPECJAL);
                         entries.add(ModBlocks.SPECJAL_BLOCK);
 
+                        entries.add(ModItems.HOP_SEEDS);
+
+                        entries.add(ModItems.SPECJAL_SWORD);
+                        entries.add(ModItems.SPECJAL_PICKAXE);
+                        entries.add(ModItems.SPECJAL_AXE);
+                        entries.add(ModItems.SPECJAL_SHOVEL);
+                        entries.add(ModItems.SPECJAL_HOE);
+
                     })
                     .build());
 
