@@ -3,6 +3,7 @@ package specjal.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemStack;
@@ -63,6 +64,38 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
                 .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_trapdoor_from_eternit"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ETERNIT_HELMET)
+                .pattern("EEE")
+                .pattern("E_E")
+                .pattern("___")
+                .input('E', ModItems.ETERNIT)
+                .input('_', ModItems.SPECJAL)
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_helmet_from_eternit"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ETERNIT_CHESTPLATE)
+                .pattern("E_E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .input('E', ModItems.ETERNIT)
+                .input('_', ModItems.SPECJAL)
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_chestplate_from_eternit"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ETERNIT_LEGGINGS)
+                .pattern("EEE")
+                .pattern("E_E")
+                .pattern("E_E")
+                .input('E', ModItems.ETERNIT)
+                .input('_', ModItems.SPECJAL)
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_leggings_from_eternit"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ETERNIT_BOOTS)
+                .pattern("___")
+                .pattern("E_E")
+                .pattern("E_E")
+                .input('E', ModItems.ETERNIT)
+                .input('_', ModItems.SPECJAL)
+                .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
+                .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_boots_from_eternit"));
 
         // tą klasą tworzymy unikalne receptury
 //        ShapedRecipeJsonBuilder.create(...)...
