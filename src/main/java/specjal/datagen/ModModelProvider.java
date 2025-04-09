@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import specjal.block.ModBlocks;
 import specjal.block.custom.HopCropBlock;
 import specjal.item.ModItems;
@@ -53,5 +54,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ETERNIT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.AKCENT_KYLIE_MUSIC_DISC, Models.GENERATED);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ETERNIT_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ETERNIT_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ETERNIT_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ETERNIT_BOOTS);
     }
 }

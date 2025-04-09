@@ -24,5 +24,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AKCENT_KYLIE_MUSIC_DISC);
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.AKCENT_KYLIE_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ETERNIT_HELMET, ModItems.ETERNIT_CHESTPLATE, ModItems.ETERNIT_LEGGINGS, ModItems.ETERNIT_BOOTS);
     }
 }

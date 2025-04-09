@@ -47,6 +47,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ETERNIT_DOOR);
                         entries.add(ModBlocks.ETERNIT_TRAPDOOR);
 
+                        entries.add(ModItems.ETERNIT_HELMET);
+                        entries.add(ModItems.ETERNIT_CHESTPLATE);
+                        entries.add(ModItems.ETERNIT_LEGGINGS);
+                        entries.add(ModItems.ETERNIT_BOOTS);
+
                         entries.add(ModItems.AKCENT_KYLIE_MUSIC_DISC);
                     })
                     .build());

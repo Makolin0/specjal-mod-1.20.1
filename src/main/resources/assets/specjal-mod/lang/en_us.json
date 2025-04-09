@@ -18,6 +18,11 @@
   "block.specjal-mod.asbestos_ore": "Asbestos Ore",
   "item.specjal-mod.eternit": "Eternit",
 
+  "item.specjal-mod.eternit_helmet": "Eternit Helmet",
+  "item.specjal-mod.eternit_chestplate": "Eternit Chestplate",
+  "item.specjal-mod.eternit_leggings": "Eternit Leggings",
+  "item.specjal-mod.eternit_boots": "Eternit Boots",
+
   "block.specjal-mod.eternit_block": "Eternit Block",
   "block.specjal-mod.eternit_stairs": "Eternit Stairs",
   "block.specjal-mod.eternit_slab": "Eternit Slab",

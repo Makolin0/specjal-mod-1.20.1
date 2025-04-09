@@ -38,6 +38,15 @@ public class ModItems {
     public static final Item ETERNIT = registerItem("eternit",
             new Item(new FabricItemSettings()));
 
+    public static final Item ETERNIT_HELMET = registerItem("eternit_helmet",
+            new ArmorItem(ModArmorMaterials.ETERNIT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ETERNIT_CHESTPLATE = registerItem("eternit_chestplate",
+            new ArmorItem(ModArmorMaterials.ETERNIT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ETERNIT_LEGGINGS = registerItem("eternit_leggings",
+            new ArmorItem(ModArmorMaterials.ETERNIT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ETERNIT_BOOTS = registerItem("eternit_boots",
+            new ArmorItem(ModArmorMaterials.ETERNIT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     public static final Item AKCENT_KYLIE_MUSIC_DISC = registerItem("akcent_kylie_music_disc",
             new MusicDiscItem(7, ModSounds.AKCENT_KYLIE, new FabricItemSettings().maxCount(1), 249));
 
