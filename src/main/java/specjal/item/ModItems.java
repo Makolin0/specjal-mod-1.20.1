@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 import specjal.block.ModBlocks;
+import specjal.item.custom.AsbestosSoupItem;
 import specjal.item.custom.EternitArmorItem;
 import specjal.item.custom.SpecjalItem;
 import specjal.sound.ModSounds;
@@ -38,6 +39,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ETERNIT = registerItem("eternit",
             new Item(new FabricItemSettings()));
+
+    public static final Item ASBESTOS_SOUP = registerItem("asbestos_soup",
+            new AsbestosSoupItem(new FabricItemSettings().food(ModFoodComponents.ASBESTOS_SOUP)));
 
     public static final Item ETERNIT_HELMET = registerItem("eternit_helmet",
             new EternitArmorItem(ModArmorMaterials.ETERNIT, ArmorItem.Type.HELMET, new FabricItemSettings()));

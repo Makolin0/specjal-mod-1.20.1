@@ -18,6 +18,9 @@
   "block.specjal-mod.asbestos_ore": "Asbestos Ore",
   "item.specjal-mod.eternit": "Eternit",
 
+  "item.specjal-mod.asbestos_soup": "Asbestos Soup",
+  "tooltip.specjal-mod.asbestos_soup": "Very Nutritious and Tasty!",
+
   "item.specjal-mod.eternit_helmet": "Eternit Helmet",
   "item.specjal-mod.eternit_chestplate": "Eternit Chestplate",
   "item.specjal-mod.eternit_leggings": "Eternit Leggings",

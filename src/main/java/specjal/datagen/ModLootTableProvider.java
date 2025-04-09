@@ -21,6 +21,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         // blok będzie wyrzucał siebie
         addDrop(ModBlocks.SPECJAL_BLOCK);
 
+        addDrop(ModBlocks.ASBESTOS_ORE, oreDrops(ModBlocks.ASBESTOS_ORE, ModItems.ASBESTOS));
+
         addDrop(ModBlocks.ETERNIT_BLOCK);
         addDrop(ModBlocks.ETERNIT_STAIRS);
         addDrop(ModBlocks.ETERNIT_SLAB, slabDrops(ModBlocks.ETERNIT_SLAB));

@@ -34,6 +34,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ASBESTOS);
                         entries.add(ModBlocks.ASBESTOS_ORE);
+                        entries.add(ModItems.ASBESTOS_SOUP);
+
                         entries.add(ModItems.ETERNIT);
 
                         entries.add(ModBlocks.ETERNIT_BLOCK);
