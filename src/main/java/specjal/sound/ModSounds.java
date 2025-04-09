@@ -9,6 +9,8 @@ import specjal.SpecjalMod;
 public class ModSounds {
     public static final SoundEvent BURP = registerSoundEvent("burp");
 
+    public static final SoundEvent AKCENT_KYLIE = registerSoundEvent("akcent_kylie");
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(SpecjalMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

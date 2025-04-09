@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import specjal.SpecjalMod;
 import specjal.block.ModBlocks;
 import specjal.item.custom.SpecjalItem;
+import specjal.sound.ModSounds;
 
 public class ModItems {
     // Dodajemy przedmioty
@@ -36,6 +37,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ETERNIT = registerItem("eternit",
             new Item(new FabricItemSettings()));
+
+    public static final Item AKCENT_KYLIE_MUSIC_DISC = registerItem("akcent_kylie_music_disc",
+            new MusicDiscItem(7, ModSounds.AKCENT_KYLIE, new FabricItemSettings().maxCount(1), 249));
 
     private static void addItemsToItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPECJAL);

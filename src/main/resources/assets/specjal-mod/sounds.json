@@ -4,5 +4,13 @@
     "sounds": [
       "specjal-mod:burp"
     ]
+  },
+  "akcent_kylie": {
+    "sounds": [
+      {
+        "name": "specjal-mod:akcent_kylie",
+        "stream": true
+      }
+    ]
   }
 }

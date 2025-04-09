@@ -46,6 +46,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ETERNIT_WALL);
                         entries.add(ModBlocks.ETERNIT_DOOR);
                         entries.add(ModBlocks.ETERNIT_TRAPDOOR);
+
+                        entries.add(ModItems.AKCENT_KYLIE_MUSIC_DISC);
                     })
                     .build());
 

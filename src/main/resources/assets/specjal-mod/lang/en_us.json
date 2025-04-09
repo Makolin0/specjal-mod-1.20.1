@@ -29,5 +29,8 @@
   "block.specjal-mod.eternit_door": "Eternit Door",
   "block.specjal-mod.eternit_trapdoor": "Eternit Trapdoor",
 
+  "item.specjal-mod.akcent_kylie_music_disc": "Kylie Music Disc",
+  "item.specjal-mod.akcent_kylie_music_disc.desc": "Akcent - Kylie",
+
   "sounds.specjal-mod.burp": "Beautiful Burp"
 }

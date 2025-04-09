@@ -51,5 +51,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.ASBESTOS, Models.GENERATED);
         itemModelGenerator.register(ModItems.ETERNIT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.AKCENT_KYLIE_MUSIC_DISC, Models.GENERATED);
     }
 }
