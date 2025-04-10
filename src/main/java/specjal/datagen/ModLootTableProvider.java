@@ -30,7 +30,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ETERNIT_PRESSURE_PLATE);
         addDrop(ModBlocks.ETERNIT_FENCE);
         addDrop(ModBlocks.ETERNIT_FENCE_GATE);
-        addDrop(ModBlocks.ETERNIT_WALL);
         addDrop(ModBlocks.ETERNIT_DOOR, doorDrops(ModBlocks.ETERNIT_DOOR));
         addDrop(ModBlocks.ETERNIT_TRAPDOOR);
 

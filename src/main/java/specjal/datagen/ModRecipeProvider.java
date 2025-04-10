@@ -54,7 +54,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createFenceGateRecipe(ModBlocks.ETERNIT_FENCE_GATE, Ingredient.ofItems(ModItems.ETERNIT))
                 .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
                 .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_fence_gate_from_eternit"));
-        offerWallRecipe(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ETERNIT_WALL, ModItems.ETERNIT);
         createDoorRecipe(ModBlocks.ETERNIT_DOOR, Ingredient.ofItems(ModItems.ETERNIT))
                 .criterion("has_eternit", conditionsFromItem(ModItems.ETERNIT))
                 .offerTo(consumer, new Identifier(SpecjalMod.MOD_ID, "eternit_door_from_eternit"));

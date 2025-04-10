@@ -51,8 +51,6 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block ETERNIT_FENCE_GATE = registerBlock("eternit_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK), WoodType.ACACIA));
-    public static final Block ETERNIT_WALL = registerBlock("eternit_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
     public static final Block ETERNIT_DOOR = registerBlock("eternit_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK), BlockSetType.ACACIA));
     public static final Block ETERNIT_TRAPDOOR = registerBlock("eternit_trapdoor",

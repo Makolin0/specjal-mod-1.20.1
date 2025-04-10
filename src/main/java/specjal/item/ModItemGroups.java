@@ -45,7 +45,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ETERNIT_PRESSURE_PLATE);
                         entries.add(ModBlocks.ETERNIT_FENCE);
                         entries.add(ModBlocks.ETERNIT_FENCE_GATE);
-                        entries.add(ModBlocks.ETERNIT_WALL);
                         entries.add(ModBlocks.ETERNIT_DOOR);
                         entries.add(ModBlocks.ETERNIT_TRAPDOOR);
 

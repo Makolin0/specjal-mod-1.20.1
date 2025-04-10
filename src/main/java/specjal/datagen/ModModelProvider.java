@@ -34,7 +34,6 @@ public class ModModelProvider extends FabricModelProvider {
         eternitPool.pressurePlate(ModBlocks.ETERNIT_PRESSURE_PLATE);
         eternitPool.fence(ModBlocks.ETERNIT_FENCE);
         eternitPool.fenceGate(ModBlocks.ETERNIT_FENCE_GATE);
-        eternitPool.wall(ModBlocks.ETERNIT_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.ETERNIT_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ETERNIT_TRAPDOOR);
     }
