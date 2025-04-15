@@ -2,6 +2,9 @@ package specjal;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kyrptonaught.customportalapi.CustomPortalBlock;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import specjal.block.ModBlocks;
@@ -28,5 +31,12 @@ public class SpecjalMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 		ModWorldGeneration.generateModWorldGen();
+
+		CustomPortalBuilder.beginPortal()
+				.frameBlock(ModBlocks.SPECJAL_BLOCK)
+				.lightWithItem(ModItems.SPECJAL)
+				.destDimID(new Identifier(SpecjalMod.MOD_ID, "specjal_dim"))
+				.tintColor(0xc99824)
+				.registerPortal();
 	}
 }
