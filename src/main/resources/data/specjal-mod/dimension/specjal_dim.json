@@ -31,7 +31,7 @@
           }
         },
         {
-          "biome": "minecraft:plains",
+          "biome": "specjal-mod:specjal_biome",
           "parameters": {
             "temperature": 0.15,
             "humidity": 0,
